@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AutoCompletionText</string>
+    <string name="enter_your_state_name">Enter your State name</string>
+    <string name="enter_your_country_name">Enter your country name</string>
 </resources>

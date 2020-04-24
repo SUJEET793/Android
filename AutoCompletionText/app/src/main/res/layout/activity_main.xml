@@ -12,9 +12,10 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:id="@+id/textview"
-        android:text="Enter your country name"
+        android:text="@string/enter_your_country_name"
         android:textSize="16sp"
-        android:textStyle="italic"/>
+        android:textStyle="italic"
+        android:layout_marginStart="16dp" />
 
 <!--   <EditText-->
 <!--       android:layout_width="match_parent"-->
@@ -28,8 +29,54 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/actv"
+        android:textStyle="italic"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="16dp"
-       android:layout_marginRight="16dp"/>
+       android:layout_marginRight="16dp"
+        android:maxLines="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_state_name"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/state"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:maxLines="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Gender"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/gender"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="16dp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/genderSpinner"
+        /></LinearLayout>
+
 
     </LinearLayout>

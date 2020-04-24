@@ -15,6 +15,19 @@
         <item >syria</item>
         <item >Togo</item>
         <item >Tonga</item>
+        <item>india</item>
 
+    </string-array>
+    <string-array name="stateName" >
+        <item> jharkhnad</item>
+        <item> Bihar</item>
+        <item>Uttar Pardesh</item>
+        <item> maha</item>
+        <item> gujrat</item>
+        <item> Goa</item>
+        <item> Rajsthan</item>
+        <item> panjab</item>
+        <item> jammu kashmir</item>
+        <item> delhi</item>
     </string-array>
 </resources>
