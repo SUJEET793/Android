@@ -1,0 +1,2 @@
+rootProject.name='AutoCompletionText'
+include ':app'
