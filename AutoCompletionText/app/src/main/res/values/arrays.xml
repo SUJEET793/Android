@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries" >
+        <item >Austrelia</item>
+        <item >Albania</item>
+        <item >Algeria</item>
+        <item >Andorra</item>
+        <item >Angola</item>
+        <item >Antigua </item>
+        <item >Azerbaijan</item>
+        <item >Bangladesh</item>
+        <item >Chad</item>
+        <item >Chile</item>
+        <item >Cuba</item>
+        <item >syria</item>
+        <item >Togo</item>
+        <item >Tonga</item>
+
+    </string-array>
+</resources>
