@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Phone Call permission</string>
+    <string name="make_call">make call</string>
+    <string name="enter_the_number_here">enter the number here</string>
+</resources>
